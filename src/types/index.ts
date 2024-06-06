@@ -1,0 +1,1 @@
+export const CANVA_SIZE = 600;
