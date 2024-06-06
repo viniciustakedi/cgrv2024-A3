@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+# Gerador de SVG único baseado em texto
+## Projeto feito com React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Algumas imagens do projeto:
+![Screenshot da primeira print tirada.](https://i.ibb.co/dfrW3Ky/Screenshot-2024-06-06-at-19-48-39.png)
+![Screenshot da segunda print tirada.](https://i.ibb.co/2cc1fsz/Screenshot-2024-06-06-at-19-48-15.png)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos
 
-## Expanding the ESLint configuration
+Certifique-se de ter os seguintes softwares instalados em seu sistema:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Node.js (versão 18 ou superior)
+- npm (Node Package Manager)
 
-- Configure the top-level `parserOptions` property like this:
+## Passo a Passo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### 1. Clonar o Repositório
+
+Primeiro, clone este repositório em sua máquina local:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2. Entre na pasta raiz e instale as dependências
+
+```bash
+cd cgrv2024-A3 && npm i
+```
+
+### 3. Execute o projeto
+
+```bash
+npm run dev
+```
+
+### 4. Acesse o link do terminal no navegador
+
+```bash
+http://localhost:5173
+``` 
+### 4. Pronto!
+
+Você acabou de rodar o projeto, se divirta!
